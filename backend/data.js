@@ -17,7 +17,7 @@ const data = {
   ],
   products: [
     {
-      name: 'Nike Slim shirt',
+      name: 'Nike Slim fit shirt',
       slug: 'nike-slim-shirt',
       category: 'Shirts',
       image: '/images/p1.jpg', // 679px × 829px
@@ -26,7 +26,7 @@ const data = {
       brand: 'Nike',
       rating: 4.5,
       numReviews: 10,
-      description: 'high quality shirt',
+      description: 'Premium Nike Slim Fit Shirt for a sleek, stylish look. Elevate your wardrobe with this high-quality essential.',
     },
     {
       name: 'Adidas Fit Shirt',
@@ -38,7 +38,7 @@ const data = {
       brand: 'Adidas',
       rating: 4.0,
       numReviews: 10,
-      description: 'high quality product',
+      description: 'The Adidas Fit Shirt seamlessly blends comfort and style, offering a premium experience for active lifestyles.',
     },
     {
       name: 'Nike Slim Pant',
@@ -50,9 +50,164 @@ const data = {
       brand: 'Nike',
       rating: 4.5,
       numReviews: 14,
-      description: 'high quality product',
+      description: 'Elevate your wardrobe with the sleek and versatile Nike Slim Pant. Crafted for comfort and style, this high-quality product is a must-have. high quality product',
     },
-    
+    {
+      name: 'Adidas Fit Pant',
+      slug: 'adidas-fit-pant',
+      category: 'Pants',
+      image: '/images/p4.jpg',
+      price: 65,
+      countInStock: 5,
+      brand: 'Adidas',
+      rating: 4.5,
+      numReviews: 10,
+      description: 'Elevate your active lifestyle with the Adidas Fit Pant. Crafted with precision and comfort in mind, these high-performance pants are perfect for casual wear.',
+    },
+    {
+      name: "Puma Run Jacket",
+      slug: "puma-run-jacket",
+      category: "Apparel",
+      image: "/images/p5.jpg", 
+      price: 69,
+      countInStock: 50,
+      brand: "Puma",
+      rating: 4.5,
+      numReviews: 30,
+      description: "Stay comfortable and stylish during your runs with the Puma Run Jacket. Made with high-quality materials for optimal performance."
+    },
+    {
+      name: "Converse T-Shirt",
+      slug: "converse-t-shirt",
+      category: "Apparel",
+      image: "/images/p6.jpg", 
+      price: 36,
+      countInStock: 80,
+      brand: "Converse",
+      rating: 4.2,
+      numReviews: 25,
+      description: "Show off your Converse style with this classic and comfortable T-shirt. Perfect for casual wear or pairing with your favorite sneakers."
+    },
+    {
+      name: "Vans Flip Slip On",
+      slug: "vans-flip-slip-on",
+      category: "Footwear",
+      image: "/images/p7.jpg", 
+      price: 49,
+      countInStock: 60,
+      brand: "Vans",
+      rating: 4.8,
+      numReviews: 40,
+      description: "Slide into style with the Vans Flip Slip On. These comfortable and trendy slip-on shoes are perfect for a laid-back and fashionable look."
+    },
+    {
+      name: "Nike Air Max",
+      slug: "nike-air-max",
+      category: "Footwear",
+      image: "/images/p8.jpg",  // Replace with actual image filename or URL
+      price: 129,
+      countInStock: 35,
+      brand: "Nike",
+      rating: 4.9,
+      numReviews: 50,
+      description: "Experience ultimate comfort and style with the iconic Nike Air Max. The perfect choice for those who demand both performance and aesthetics."
+    },
+    {
+      name: "Adidas Ultraboost Sneakers",
+      slug: "adidas-ultraboost-sneakers",
+      category: "Footwear",
+      image: "/images/p9.jpg", 
+      price: 159,
+      countInStock: 45,
+      brand: "Adidas",
+      rating: 4.7,
+      numReviews: 35,
+      description: "Step into the future of comfort and performance with the Adidas Ultraboost Sneakers. Boost technology ensures a responsive and cushioned stride."
+    },
+    {
+      name: "Suede Classic XXI Sneakers",
+      slug: "suede-classic-xxi-sneakers",
+      category: "Footwear",
+      image: "/images/p10.jpg",
+      price: 79,
+      countInStock: 40,
+      brand: "Puma",
+      rating: 4.6,
+      numReviews: 28,
+      description: "Elevate your style with the timeless Puma Suede Classic XXI Sneakers. Classic design meets modern comfort for a perfect casual look."
+    },
+    {
+      name: "Nike Pink Hat",
+      slug: "nike-pink-hat",
+      category: "Accessories",
+      image: "/images/p11.jpg",
+      price: 27,
+      countInStock: 55,
+      brand: "Nike",
+      rating: 4.4,
+      numReviews: 22,
+      description: "Add a pop of color to your outfit with the Nike Pink Hat. Stylish and comfortable, it's the perfect accessory for a sporty and vibrant look."
+    },
+    {
+      name: "Stylish Fashion Hat for Women",
+      slug: "stylish-fashion-hat-women",
+      category: "Accessories",
+      image: "/images/p12.jpg",
+      price: 34,
+      countInStock: 30,
+      brand: "Fashionista",
+      rating: 4.7,
+      numReviews: 36,
+      description: "Stay on-trend with this Stylish Fashion Hat for Women. The perfect blend of elegance and contemporary fashion for any occasion."
+    },
+    {
+      name: "Adidas Original Hat",
+      slug: "adidas-original-hat",
+      category: "Accessories",
+      image: "/images/p13.jpg",
+      price: 24,
+      countInStock: 50,
+      brand: "Adidas",
+      rating: 4.5,
+      numReviews: 31,
+      description: "Show your love for the classics with the Adidas Original Hat. Iconic design and quality craftsmanship make this hat a must-have."
+    },
+    {
+      name: "Nike Men T-Shirt",
+      slug: "nike-men-t-shirt",
+      category: "Apparel",
+      image: "/images/p14.jpg",
+      price: 139,
+      countInStock: 65,
+      brand: "Nike",
+      rating: 4.6,
+      numReviews: 40,
+      description: "Upgrade your wardrobe with the Nike Men T-Shirt. Comfortable and stylish, it's the perfect choice for everyday casual wear."
+    },
+    {
+      name: "Tommy Hilfiger T-Shirt",
+      slug: "tommy-hilfiger-t-shirt",
+      category: "Apparel",
+      image: "/images/p15.jpg",
+      price: 149,
+      countInStock: 45,
+      brand: "Tommy Hilfiger",
+      rating: 4.8,
+      numReviews: 48,
+      description: "Show off your classic style with the Tommy Hilfiger T-Shirt. Quality materials and iconic design make it a timeless addition to your wardrobe."
+    },
+    {
+      name: "Mango Classic Coat",
+      slug: "mango-classic-coat",
+      category: "Apparel",
+      image: "/images/p16.jpg",
+      price: 229,
+      countInStock: 20,
+      brand: "Mango",
+      rating: 4.9,
+      numReviews: 55,
+      description: "Stay warm and stylish with the Mango Classic Coat. Classic design meets modern sophistication, making it a must-have for any wardrobe."
+    }
   ],
 };
 export default data;
